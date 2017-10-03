@@ -8,7 +8,7 @@ There is no guarantee on this working well, or safely for you. I take no part in
 
 * [Configuration.h](PowerSpec-WanHao_i3/Marlin-1.1.5_Release/Marlin/Configuration.h)
 
-* [Configuration_adv.h](/PublicPrinterProfiles/PowerSpec-WanHao_i3/Marlin-1.1.5_Release/Marlin/Configuration_adv.h)
+* [Configuration_adv.h](PowerSpec-WanHao_i3/Marlin-1.1.5_Release/Marlin/Configuration_adv.h)
 
 ##### *DO NOT JUST BLINDLY USE THIS WITH A BLTouch. Your Z Probe Offset is likely different.*
 
