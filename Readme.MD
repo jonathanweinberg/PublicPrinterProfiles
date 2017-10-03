@@ -2,7 +2,7 @@
 
 This is a copy of the configuration for Marlin 1.1.5 that I am currently using for my `WanHao \ PowerSpec \ Maker Select i3`.
 
-There is no guarantee on this working well, or safely for you. I take no part in any liability, nor do I claim any stake in the Malin project.
+There is no guarantee on this working well, or safely for you. I take no part in any liability, nor do I claim any stake in the [Marlin project](https://github.com/MarlinFirmware/Marlin/releases).
 
 #### You will want to take a look primarily at changes in:
 
