@@ -6,7 +6,7 @@ There is no guarantee on this working well, or safely for you. I take no part in
 
 #### You will want to take a look primarily at changes in:
 
-* [Configuration.h](/PublicPrinterProfiles/PowerSpec-WanHao_i3/Marlin-1.1.5_Release/Marlin/Configuration.h)
+* [Configuration.h](PowerSpec-WanHao_i3/Marlin-1.1.5_Release/Marlin/Configuration.h)
 
 * [Configuration_adv.h](/PublicPrinterProfiles/PowerSpec-WanHao_i3/Marlin-1.1.5_Release/Marlin/Configuration_adv.h)
 
