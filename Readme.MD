@@ -22,6 +22,7 @@ My current printer configuration / changes - not all are relevant:
 1) 4mm Borosilicate Glass 219mm x 219mm (RepRap Champions)
 1) 3mm Borosilicate Glass 213mm x 200mm (Signstek)
 1) 200 watt silicone heater (RepRap Champions)
+1) MicroSwiss Full Metal Hot End
 1) Witbot MKS GEN 1.4 (AKA Witbot GEN v1.0)
 1) Witbot 12864 LCD
 1) BIQU A4988 Steppers
