@@ -27,3 +27,15 @@ My current printer configuration / changes - not all are relevant:
 1) Witbot 12864 LCD
 1) BIQU A4988 Steppers
 1) BLTouch Smart
+* BLTouch Mount Used - https://www.thingiverse.com/thing:2335175
+
+[Stepper Driver Direction Identification](https://3dprinting.stackexchange.com/questions/3456/motor-driver-chip-install-direction/3654#3654)
+
+[MKS GEN - RepRap Wiki](http://reprap.org/wiki/MKS_GEN)
+
+[A4988 Stepper Motor Driver Carrier](https://www.pololu.com/product/1182)
+
+[Board Replacement Options (RAMPS, RADDS, Clone Mini)](https://3dprinterwiki.info/wiki/wanhao-duplicator-i3/di3-advanced-mods/board-replacement-options/)
+
+[3D Printer Filament Diameter Sensing : Assembled](https://www.tindie.com/products/JasonKits/3d-printer-filament-diameter-sensing--assembled-/)
+

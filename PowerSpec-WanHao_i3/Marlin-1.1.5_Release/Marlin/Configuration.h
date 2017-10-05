@@ -74,9 +74,9 @@
  // User-specified version info of this build to display in [Pronterface, etc] terminal window during
  // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
  // build by the user have been successfully uploaded into firmware.
- #define STRING_CONFIG_H_AUTHOR "(TeamBuildShit, Marlin MKS-GEN 1.4, Revision 04)" // Who made the changes.
+ #define STRING_CONFIG_H_AUTHOR "(TeamBuildShit, Marlin MKS-GEN 1.4, Revision 05)" // Who made the changes.
  #define SHOW_BOOTSCREEN
- //#define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
+ #define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
  //#define STRING_SPLASH_LINE2 WEBSITE_URL         // will be shown during bootup in line 2
  
  //
@@ -524,7 +524,7 @@
   * Override with M92
   *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
   */
- #define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.55, 79.6, 394.71, 195.69 }
+ #define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.55, 79.6, 394.71, 106.35 }
  
  /**
   * Default Max Feed Rate (mm/s)
@@ -634,7 +634,7 @@
   */
  #define BLTOUCH
  #if ENABLED(BLTOUCH)
-   //#define BLTOUCH_DELAY 375   // (ms) Enable and increase if needed
+   #define BLTOUCH_DELAY 375   // (ms) Enable and increase if needed
  #endif
  
  /**
@@ -680,10 +680,10 @@
   */
  #define X_PROBE_OFFSET_FROM_EXTRUDER 7  // X offset: -left  +right  [of the nozzle]
  #define Y_PROBE_OFFSET_FROM_EXTRUDER 50 // Y offset: -front +behind [the nozzle]
- #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.53   // Z offset: -below +above  [the nozzle]
+ #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.56   // Z offset: -below +above  [the nozzle]
  
  // X and Y axis travel speed (mm/m) between probes
- #define XY_PROBE_SPEED 4000
+ #define XY_PROBE_SPEED 8000
  
  // Speed for the first approach when double-probing (with PROBE_DOUBLE_TOUCH)
  #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
@@ -868,14 +868,14 @@
  #if ENABLED(AUTO_BED_LEVELING_LINEAR) || ENABLED(AUTO_BED_LEVELING_BILINEAR)
  
    // Set the number of grid points per dimension.
-   #define GRID_MAX_POINTS_X 3
+   #define GRID_MAX_POINTS_X 4
    #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
  
    // Set the boundaries for probing (where the probe can reach).
    #define LEFT_PROBE_BED_POSITION 20
-   #define RIGHT_PROBE_BED_POSITION 175
+   #define RIGHT_PROBE_BED_POSITION 180
    #define FRONT_PROBE_BED_POSITION 50
-   #define BACK_PROBE_BED_POSITION 175
+   #define BACK_PROBE_BED_POSITION 190
  
    // The Z probe minimum outer margin (to validate G29 parameters).
    #define MIN_PROBE_EDGE 10
@@ -893,7 +893,7 @@
      // Experimental Subdivision of the grid by Catmull-Rom method.
      // Synthesizes intermediate points to produce a more detailed mesh.
      //
-     //#define ABL_BILINEAR_SUBDIVISION
+     #define ABL_BILINEAR_SUBDIVISION
      #if ENABLED(ABL_BILINEAR_SUBDIVISION)
        // Number of subdivisions between probe points
        #define BILINEAR_SUBDIVISIONS 4
@@ -1042,7 +1042,7 @@
  // @section temperature
  
  // Preheat Constants
- #define PREHEAT_1_TEMP_HOTEND 180
+ #define PREHEAT_1_TEMP_HOTEND 190
  #define PREHEAT_1_TEMP_BED     70
  #define PREHEAT_1_FAN_SPEED     0 // Value from 0 to 255
  
@@ -1625,7 +1625,7 @@
   * flow rate to compensate for any irregularities.
   *
   * Also allows the measured filament diameter to set the
-  * extrusion rate, so the slicer only has to specify the
+  * extrusion rate, so the slicer only has to specify the splash
   * volume.
   *
   * Only a single extruder is supported at this time.
