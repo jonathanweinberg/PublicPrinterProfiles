@@ -10,7 +10,7 @@ There is no guarantee on this working well, or safely for you. I take no part in
 
 * [Configuration_adv.h](PowerSpec-WanHao_i3/Marlin-1.1.5_Release/Marlin/Configuration_adv.h)
 
-##### *DO NOT JUST BLINDLY USE THIS WITH A BLTouch. Your Z Probe Offset is likely different.*
+ *DO NOT JUST BLINDLY USE THIS WITH A BLTouch. Your Z Probe Offset is likely different.*
 
 ## Current WanHao i3 Configuration
 
@@ -27,15 +27,42 @@ My current printer configuration / changes - not all are relevant:
 1) Witbot 12864 LCD
 1) BIQU A4988 Steppers
 1) BLTouch Smart
-* BLTouch Mount Used - https://www.thingiverse.com/thing:2335175
+   * BLTouch Mount Used - https://www.thingiverse.com/thing:2335175
 
-[Stepper Driver Direction Identification](https://3dprinting.stackexchange.com/questions/3456/motor-driver-chip-install-direction/3654#3654)
+## Helpful links
 
-[MKS GEN - RepRap Wiki](http://reprap.org/wiki/MKS_GEN)
+#### Software Side
 
-[A4988 Stepper Motor Driver Carrier](https://www.pololu.com/product/1182)
+- Marlin Configurator
+    
+    * Thanks Max!
+    * [Thingiverse](https://www.thingiverse.com/thing:2403436)
+    * [GitHub](https://github.com/akaJes/marlin-config)
+    * [Instructables](http://www.instructables.com/id/Marlin-config/)
 
-[Board Replacement Options (RAMPS, RADDS, Clone Mini)](https://3dprinterwiki.info/wiki/wanhao-duplicator-i3/di3-advanced-mods/board-replacement-options/)
 
-[3D Printer Filament Diameter Sensing : Assembled](https://www.tindie.com/products/JasonKits/3d-printer-filament-diameter-sensing--assembled-/)
+#### Hardware Side
 
+* [Stepper Driver Direction Identification](https://3dprinting.stackexchange.com/questions/3456/motor-driver-chip-install-direction/3654#3654)
+
+* [MKS GEN - RepRap Wiki](http://reprap.org/wiki/MKS_GEN)
+
+* [A4988 Stepper Motor Driver Carrier](https://www.pololu.com/product/1182)
+
+* [Board Replacement Options (RAMPS, RADDS, Clone Mini)](https://3dprinterwiki.info/wiki/wanhao-duplicator-i3/di3-advanced-mods/board-replacement-options/)
+
+* [3D Printer Filament Diameter Sensing : Assembled](https://www.tindie.com/products/JasonKits/3d-printer-filament-diameter-sensing--assembled-/)
+
+## Big thanks to...
+
+1) [Jonathon Hale](https://github.com/jon012198)
+
+    * Jonathon helped me out a ton with a base configuration, and working through my pesky axis directionality issues. Thank you!
+
+2) David Thomas
+
+    * Endless providing of links to resources to understand use of the BLTouch, bed preparation, and some truly excellent example prints.
+
+3) Max DiOrio
+
+    * Tons of great links and direction, discussion of Marlin settings at all hours.
