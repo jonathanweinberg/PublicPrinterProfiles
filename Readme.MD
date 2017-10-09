@@ -4,13 +4,17 @@ This is a copy of the configuration for Marlin 1.1.5 that I am currently using f
 
 There is no guarantee on this working well, or safely for you. I take no part in any liability, nor do I claim any stake in the [Marlin project](https://github.com/MarlinFirmware/Marlin/releases).
 
-#### You will want to take a look primarily at changes in:
+### You will want to take a look primarily at changes in these locations
 
 * [Configuration.h](PowerSpec-WanHao_i3/Marlin-1.1.5_Release/Marlin/Configuration.h)
 
 * [Configuration_adv.h](PowerSpec-WanHao_i3/Marlin-1.1.5_Release/Marlin/Configuration_adv.h)
 
+### Warnings!
+
  *DO NOT JUST BLINDLY USE THIS WITH A BLTouch. Your Z Probe Offset is likely different.*
+
+*DO NOT EXPECT THIS TO WORK IN GENERAL! Sanity check everything.*
 
 ## Current WanHao i3 Configuration
 
@@ -27,19 +31,19 @@ My current printer configuration / changes - not all are relevant:
 1) Witbot 12864 LCD
 1) BIQU A4988 Steppers
 1) BLTouch Smart
-   * BLTouch Mount Used - https://www.thingiverse.com/thing:2335175
+
+   * [BLTouch Mount Used](https://www.thingiverse.com/thing:2335175)
 
 ## Helpful links
 
 #### Software Side
 
-- Marlin Configurator
-    
-    * Thanks Max!
-    * [Thingiverse](https://www.thingiverse.com/thing:2403436)
-    * [GitHub](https://github.com/akaJes/marlin-config)
-    * [Instructables](http://www.instructables.com/id/Marlin-config/)
+* Marlin Configurator
 
+  * Thanks Max!
+  * [Thingiverse](https://www.thingiverse.com/thing:2403436)
+  * [GitHub](https://github.com/akaJes/marlin-config)
+  * [Instructables](http://www.instructables.com/id/Marlin-config/)
 
 #### Hardware Side
 
@@ -59,10 +63,10 @@ My current printer configuration / changes - not all are relevant:
 
     * Jonathon helped me out a ton with a base configuration, and working through my pesky axis directionality issues. Thank you!
 
-2) David Thomas
+1) David Thomas
 
     * Endless providing of links to resources to understand use of the BLTouch, bed preparation, and some truly excellent example prints.
 
-3) Max DiOrio
+1) Max DiOrio
 
     * Tons of great links and direction, discussion of Marlin settings at all hours.
