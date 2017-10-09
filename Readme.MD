@@ -10,6 +10,10 @@ There is no guarantee on this working well, or safely for you. I take no part in
 
 * [Configuration_adv.h](PowerSpec-WanHao_i3/Marlin-1.1.5_Release/Marlin/Configuration_adv.h)
 
+* [Slicer / M503 Settings](PowerSpec-WanHao_i3/Current_Settings/)
+
+  * Look in the numbered subfolders....
+
 ### Warnings!
 
  *DO NOT JUST BLINDLY USE THIS WITH A BLTouch. Your Z Probe Offset is likely different.*
