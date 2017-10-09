@@ -63,9 +63,13 @@ My current printer configuration / changes - not all are relevant:
 
 ## Big thanks to...
 
-1) [Jonathon Hale](https://github.com/jon012198)
+1) Jonathon Hale
 
     * Jonathon helped me out a ton with a base configuration, and working through my pesky axis directionality issues. Thank you!
+
+      * [Facebook](https://www.facebook.com/jon012198)
+
+      * [GitHub](https://github.com/jon012198)
 
 1) David Thomas
 
