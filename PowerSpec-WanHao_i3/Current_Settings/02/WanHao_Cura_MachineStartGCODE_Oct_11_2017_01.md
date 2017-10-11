@@ -32,4 +32,8 @@ G92 E0 ;zero the extruded length again
 ;G92 E0 ;zero the extruded length again
 ;G1 F{travel_speed}
 
+M104 S{material_print_temperature} ; set extruder temp
+M140 S{material_bed_temperature} ; set bed temp
+M109 S{material_print_temperature} ; wait for extruder temp
+
 M117 Printing...
