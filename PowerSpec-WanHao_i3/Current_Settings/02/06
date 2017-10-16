@@ -9,10 +9,19 @@ M502
 G28 ; home all axes
 G29 ; AutoBedLevel
 M851 Z-0.38
+
+;M92 X79.55 Y79.6 Z394.71 E106.35 ; Step Settings
+;M92 X79.55 Y79.6 Z394.71 E106.35
+M92 X79.81 Y79.84 Z402.35 E106.35
+
+;M205 S0.00 T0.00 B20000 X6.00 Y6.00 Z0.40 E6.00 ; Jerk Settings
+M205 S0.00 T0.00 B20000 X8.00 Y8.00 Z0.40 E6.00
+
 G1 Z15.0 F\{travel_speed\} ;move the platform down 15mm
 G92 E0 ;zero the extruded length
-G1 F200 E6 ;extrude 6 mm of feed stock
+G1 F200 E12 ;extrude 12 mm of feed stock
 G92 E0 ;zero the extruded length again
 G1 F\{travel_speed\} 
+
 ;Put printing message on LCD screen
 M117 Printing...

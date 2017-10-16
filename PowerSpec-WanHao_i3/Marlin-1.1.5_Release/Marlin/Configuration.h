@@ -680,7 +680,7 @@
   */
  #define X_PROBE_OFFSET_FROM_EXTRUDER 7  // X offset: -left  +right  [of the nozzle]
  #define Y_PROBE_OFFSET_FROM_EXTRUDER 50 // Y offset: -front +behind [the nozzle]
- #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.50   // Z offset: -below +above  [the nozzle]
+ #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.46   // Z offset: -below +above  [the nozzle]
  
  // X and Y axis travel speed (mm/m) between probes
  #define XY_PROBE_SPEED 8000
@@ -887,7 +887,7 @@
  
      // Beyond the probed grid, continue the implied tilt?
      // Default is to maintain the height of the nearest edge.
-     #define EXTRAPOLATE_BEYOND_GRID
+     //#define EXTRAPOLATE_BEYOND_GRID
  
      //
      // Experimental Subdivision of the grid by Catmull-Rom method.
