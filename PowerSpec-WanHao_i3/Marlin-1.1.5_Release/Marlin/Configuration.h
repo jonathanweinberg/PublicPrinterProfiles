@@ -513,7 +513,7 @@
   */
  
  /**
-  * With this option each E stepper can have its own factors for the
+  * With this option each E stepper can have its own factors for thes
   * following movement settings. If fewer factors are given than the
   * total number of extruders, the last value applies to the rest.
   */
@@ -524,7 +524,7 @@
   * Override with M92
   *                                      X, Y, Z, E0 [, E1[, E2[, E3[, E4]]]]
   */
- #define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.55, 79.6, 394.71, 106.35 }
+ #define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.81, 79.84, 400.99, 106.35 }
  
  /**
   * Default Max Feed Rate (mm/s)
@@ -680,7 +680,7 @@
   */
  #define X_PROBE_OFFSET_FROM_EXTRUDER 7  // X offset: -left  +right  [of the nozzle]
  #define Y_PROBE_OFFSET_FROM_EXTRUDER 50 // Y offset: -front +behind [the nozzle]
- #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.46   // Z offset: -below +above  [the nozzle]
+ #define Z_PROBE_OFFSET_FROM_EXTRUDER 0.00   // Z offset: -below +above  [the nozzle]
  
  // X and Y axis travel speed (mm/m) between probes
  #define XY_PROBE_SPEED 8000
@@ -709,7 +709,7 @@
   *     But: `M851 Z+1` with a CLEARANCE of 2  =>  2mm from bed to nozzle.
   */
  #define Z_CLEARANCE_DEPLOY_PROBE   10 // Z Clearance for Deploy/Stow
- #define Z_CLEARANCE_BETWEEN_PROBES  5 // Z Clearance between probe points
+ #define Z_CLEARANCE_BETWEEN_PROBES  4 // Z Clearance between probe points
  
  // For M851 give a range for adjusting the Z probe offset
  #define Z_PROBE_OFFSET_RANGE_MIN -20
@@ -862,18 +862,18 @@
    // Gradually reduce leveling correction until a set height is reached,
    // at which point movement will be level to the machine's XY plane.
    // The height can be set with M420 Z<height>
-   #define ENABLE_LEVELING_FADE_HEIGHT
+   //#define ENABLE_LEVELING_FADE_HEIGHT
  #endif
  
  #if ENABLED(AUTO_BED_LEVELING_LINEAR) || ENABLED(AUTO_BED_LEVELING_BILINEAR)
  
    // Set the number of grid points per dimension.
-   #define GRID_MAX_POINTS_X 4
+   #define GRID_MAX_POINTS_X 5
    #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
  
    // Set the boundaries for probing (where the probe can reach).
-   #define LEFT_PROBE_BED_POSITION 20
-   #define RIGHT_PROBE_BED_POSITION 180
+   #define LEFT_PROBE_BED_POSITION 17
+   #define RIGHT_PROBE_BED_POSITION 190
    #define FRONT_PROBE_BED_POSITION 50
    #define BACK_PROBE_BED_POSITION 190
  
@@ -887,7 +887,7 @@
  
      // Beyond the probed grid, continue the implied tilt?
      // Default is to maintain the height of the nearest edge.
-     //#define EXTRAPOLATE_BEYOND_GRID
+     #define EXTRAPOLATE_BEYOND_GRID
  
      //
      // Experimental Subdivision of the grid by Catmull-Rom method.
@@ -896,7 +896,7 @@
      #define ABL_BILINEAR_SUBDIVISION
      #if ENABLED(ABL_BILINEAR_SUBDIVISION)
        // Number of subdivisions between probe points
-       #define BILINEAR_SUBDIVISIONS 4
+       #define BILINEAR_SUBDIVISIONS 2
      #endif
  
    #endif
@@ -994,7 +994,7 @@
  
  // Homing speeds (mm/m)
  #define HOMING_FEEDRATE_XY (50*60)
- #define HOMING_FEEDRATE_Z  (4*60)
+ #define HOMING_FEEDRATE_Z  (6*60)
  
  //=============================================================================
  //============================= Additional Features ===========================
@@ -1295,7 +1295,7 @@
  // If you have a speaker that can produce tones, enable it here.
  // By default Marlin assumes you have a buzzer with a fixed frequency.
  //
- //#define SPEAKER
+#define SPEAKER
  
  //
  // The duration and frequency for the UI feedback sound.
