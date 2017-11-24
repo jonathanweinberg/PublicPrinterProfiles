@@ -23,20 +23,29 @@ There is no guarantee on this working well, or safely for you. I take no part in
 ## Current WanHao i3 Configuration
 
 My current printer configuration / changes - not all are relevant:
-1) MOSFET Upgrade
-1) Flex Couplers (5mm X 8mm X 25mm)
-1) Upgraded Y Chassis (RepRap Champions)
-1) Upgraded HotBed (RepRap Champions)
-1) 4mm Borosilicate Glass 219mm x 219mm (RepRap Champions)
-1) 3mm Borosilicate Glass 213mm x 200mm (Signstek)
-1) 200 watt silicone heater (RepRap Champions)
-1) MicroSwiss Full Metal Hot End
-1) Witbot MKS GEN 1.4 (AKA Witbot GEN v1.0)
-1) Witbot 12864 LCD
-1) BIQU A4988 Steppers
-1) BLTouch Smart
+
+1) [MOSFET Upgrade](https://www.amazon.com/gp/product/B01HEQVQAK/) _**Do THIS UNLESS YOU WANT TO BURN OUT THE MELZI BOARD OR START A FIRE**_
+1) [Flex Couplers (5mm X 8mm X 25mm)](https://www.amazon.com/RepRap-Champion-Flexible-Coupling-printers/dp/B00THZJKPA/) _Overpriced via Amazon, get on AliExpress. I actually don't recommend these anymore, I prefer the "plum couplers"._
+1) [Upgraded Y Chassis (RepRap Champions)](https://www.amazon.com/RepRap-Champion-Carriage-Duplicator-Monoprice/dp/B01MUAMRN7/) _**Quite required after a little time as well. Stock tends to warp quickly**_
+1) [Upgraded HotBed (RepRap Champions)](https://www.amazon.com/RepRap-Champion-Printer-Aluminum-Adjustment/dp/B019BGAB7K/) _**Gives you a little bit more room since it has recessed screws. This one in particular is nice and flat as well. You can do a 3 point system vs. a 4 point.**_
+1) [200 watt silicone heater (RepRap Champions)](https://www.amazon.com/RepRap-Champion-Silicone-Thermistor-Printer/dp/B016CKFZEM/) _**Fancy, heats fast and pretty evenly.**_
+1) [Witbot MKS GEN 1.4 (AKA Witbot GEN v1.0 is a MKS GEN 1.4)](https://www.amazon.com/Witbot-Controller-Ramps1-4-Mega2560-DRV8825/dp/B06XD5YT5K/) _**Woo! Nice little RAMPS / Marlin compatible board!**_
+1) [Witbot 12864 LCD](https://www.amazon.com/Witbot-Controller-Control-Display-Monitor-Motherboard/dp/B07219RT7R/) _**Perfectly functional, includes an SD Slot, and yes, needs the connectors flipped to be usable.**_
+1) [BIQU A4988 Steppers](https://www.amazon.com/gp/product/B01FFFYVV8/) _**OG steppers work fiiiiiiiiiine.**_
+
+1) [BLTouch Smart](https://www.amazon.com/BLTouch-Leveling-Sensor-Premium-Printer/dp/B076PS71B8/)
 
    * [BLTouch Mount Used](https://www.thingiverse.com/thing:2335175)
+
+1) [Micro Swiss All Metal Hotend with SLOTTED Cooling Block for Wanhao i3](https://www.amazon.com/Micro-Hotend-SLOTTED-Cooling-Wanhao/dp/B01E1HANLS) _**Yes. It works. No more worrying about PTFE Tubing. At all. Install is easy, yet tricky.**_
+1) [Micro Swiss CNC Machined Lever and Extruder Plate for Wanhao i3 (Full Kit)](https://www.amazon.com/Micro-Swiss-Machined-Extruder-Wanhao/dp/B06WVB6CYD/) _**Mostly just pretty, but also functional. Nothing truly innovative about the design. Would have like to have seen a bit more engineering in it, making an actual pivot point versus a screw. But no wondering if it's gonna wear out slightly and send your filament out the side when you change.**_
+1) [Micro Swiss nozzle for All Metal Hotend Kit ONLY A2 Hardened Steel .4mm](https://www.amazon.com/Micro-Swiss-nozzle-Hotend-Hardened/dp/B01LOYTH86/) _**Reminder that the one that comes with the Micro Swiss kit is a brass "hardening coated" nozzle. Abrasive filaments like Glow In The Dark, or Aluminum fill'd ones will eat it slower than a straight brass nozzle, but it'll still happen. This should last longer.**_
+
+1) 4mm Borosilicate Glass 219mm x 219mm (RepRap Champions) _**Link to Come**_
+1) 3mm Borosilicate Glass 213mm x 200mm (Signstek) _**Link to Come**_
+1) 1/4" Plain Window Glass 213mm x 213mm (Generic) _**More info to come**_
+1) GizmoDorks PEI Sheet _**Link to Come**_
+1) Anycubic Ultrabase _**Link to Come**_
 
 ## Helpful links
 
