@@ -24,7 +24,7 @@ There is no guarantee on this working well, or safely for you. I take no part in
 
 My current printer configuration / changes - not all are relevant:
 
-1) [MOSFET Upgrade](https://www.amazon.com/gp/product/B01HEQVQAK/) _**Do THIS UNLESS YOU WANT TO BURN OUT THE MELZI BOARD OR START A FIRE**_
+1) [MOSFET Upgrade](https://www.amazon.com/gp/product/B01HEQVQAK/) _**Do THIS UNLESS YOU WANT TO BURN OUT THE MELZI BOARD AND POSSIBLY START A FIRE**_
 1) [Flex Couplers (5mm X 8mm X 25mm)](https://www.amazon.com/RepRap-Champion-Flexible-Coupling-printers/dp/B00THZJKPA/) _Overpriced via Amazon, get on AliExpress. I actually don't recommend these anymore, I prefer the "plum couplers"._
 1) [Upgraded Y Chassis (RepRap Champions)](https://www.amazon.com/RepRap-Champion-Carriage-Duplicator-Monoprice/dp/B01MUAMRN7/) _**Quite required after a little time as well. Stock tends to warp quickly**_
 1) [Upgraded HotBed (RepRap Champions)](https://www.amazon.com/RepRap-Champion-Printer-Aluminum-Adjustment/dp/B019BGAB7K/) _**Gives you a little bit more room since it has recessed screws. This one in particular is nice and flat as well. You can do a 3 point system vs. a 4 point.**_
