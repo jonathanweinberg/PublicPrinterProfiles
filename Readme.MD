@@ -49,9 +49,18 @@ My current printer configuration / changes - not all are relevant:
 
 ## Helpful links
 
+* Marlin Configuration Tools
+
+  * [Marlin firmware configurator (Thingiverse)](https://www.thingiverse.com/thing:2403436)
+  * [Marlin firmware configurator (GitHub kaJes/marlin-config)](https://github.com/akaJes/marlin-config)
+  * [Marlin3DprinterTool](http://marlin3dprintertool.se) _**Very neat .NET app**_
+  * [Ginge's reimplemented from scratch and memory of the Daid's marlin builder web app.](https://github.com/ginge/marlin-builder) _**Old, probably not something to use**_
+
+
+
 #### Software Side
 
-* Marlin Configurator
+* Marlin Configuration
 
   * Thanks Max!
   * [Thingiverse](https://www.thingiverse.com/thing:2403436)
