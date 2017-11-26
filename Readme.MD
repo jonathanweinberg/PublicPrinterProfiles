@@ -1,3 +1,7 @@
+# DIY Thermistors
+
+[Thermistor Musings](/Thermistor_Musings.md)
+
 # Printer Configs
 
 This is a copy of the configuration for Marlin 1.1.5 that I am currently using for my `WanHao \ PowerSpec \ Maker Select i3`.
@@ -55,8 +59,6 @@ My current printer configuration / changes - not all are relevant:
   * [Marlin firmware configurator (GitHub kaJes/marlin-config)](https://github.com/akaJes/marlin-config)
   * [Marlin3DprinterTool](http://marlin3dprintertool.se) _**Very neat .NET app**_
   * [Ginge's reimplemented from scratch and memory of the Daid's marlin builder web app.](https://github.com/ginge/marlin-builder) _**Old, probably not something to use**_
-
-
 
 #### Software Side
 
