@@ -13,7 +13,7 @@ Perfect. They looked familiar. Ordered anyway.
 
 ## So, turns out....
 
-Turns out, the "screw in" portion of the thermistor is a run of a mill, generic, brass M3 standoff. Literally something you can purchase by the pound like common bolts.
+Turns out, the "screw in" portion of the thermistor is a run of a mill, generic, brass M3 standoff. Literally something you can purchase by the pound like common bolts. EDIT: Can be, doesn't have to be, but can be.
 
 [Here's some decent reading.](http://forums.reprap.org/read.php?1,332399)
 
