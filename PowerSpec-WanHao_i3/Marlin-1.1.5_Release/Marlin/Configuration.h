@@ -127,7 +127,7 @@
  
  // Define this to set a unique identifier for this printer, (Used by some programs to differentiate between machines)
  // You can use an online service to generate a random UUID. (eg http://www.uuidgenerator.net/version4)
- //#define MACHINE_UUID "00000000-0000-0000-0000-000000000000"
+ //#define MACHINE_UUID "00000000-0000-0000-0000-000000000000"mes
  
  // @section extruder
  
@@ -950,7 +950,7 @@
   * Use the LCD controller for bed leveling
   * Requires MESH_BED_LEVELING or PROBE_MANUALLY
   */
- #define LCD_BED_LEVELING
+ //#define LCD_BED_LEVELING
  
  #if ENABLED(LCD_BED_LEVELING)
    #define MBL_Z_STEP 0.025    // Step size while manually probing Z axis.
