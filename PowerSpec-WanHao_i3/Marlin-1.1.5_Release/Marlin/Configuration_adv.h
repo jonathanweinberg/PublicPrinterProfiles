@@ -599,7 +599,7 @@
   *
   * Warning: Does not respect endstops!
   */
- //#define BABYSTEPPING
+ #define BABYSTEPPING
  #if ENABLED(BABYSTEPPING)
    #define BABYSTEP_XY              // Also enable X/Y Babystepping. Not supported on DELTA!
    #define BABYSTEP_INVERT_Z false  // Change if Z babysteps should go the other way
@@ -806,7 +806,7 @@
   * Requires an LCD display.
   * This feature is required for the default FILAMENT_RUNOUT_SCRIPT.
   */
- //#define ADVANCED_PAUSE_FEATURE
+ #define ADVANCED_PAUSE_FEATURE
  #if ENABLED(ADVANCED_PAUSE_FEATURE)
    #define PAUSE_PARK_X_POS 3                  // X position of hotend
    #define PAUSE_PARK_Y_POS 3                  // Y position of hotend

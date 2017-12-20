@@ -74,7 +74,7 @@
  // User-specified version info of this build to display in [Pronterface, etc] terminal window during
  // startup. Implementation of an idea by Prof Braino to inform user that any changes made to this
  // build by the user have been successfully uploaded into firmware.
- #define STRING_CONFIG_H_AUTHOR "(TeamBuildShit, Marlin MKS-GEN 1.4, Revision 05)" // Who made the changes.
+ #define STRING_CONFIG_H_AUTHOR "(TeamBuildShit, Marlin MKS-GEN 1.4, Revision 06)" // Who made the changes.
  #define SHOW_BOOTSCREEN
  #define STRING_SPLASH_LINE1 SHORT_BUILD_VERSION // will be shown during bootup in line 1
  //#define STRING_SPLASH_LINE2 WEBSITE_URL         // will be shown during bootup in line 2
@@ -561,8 +561,8 @@
   * When changing speed and direction, if the difference is less than the
   * value set here, it may happen instantaneously.
   */
- #define DEFAULT_XJERK                 6.0
- #define DEFAULT_YJERK                 6.0
+ #define DEFAULT_XJERK                 8.0
+ #define DEFAULT_YJERK                 8.0
  #define DEFAULT_ZJERK                  0.4
  #define DEFAULT_EJERK                  5.0
  
@@ -680,10 +680,10 @@
   */
  #define X_PROBE_OFFSET_FROM_EXTRUDER 7  // X offset: -left  +right  [of the nozzle]
  #define Y_PROBE_OFFSET_FROM_EXTRUDER 50 // Y offset: -front +behind [the nozzle]
- #define Z_PROBE_OFFSET_FROM_EXTRUDER 0.00   // Z offset: -below +above  [the nozzle]
+ #define Z_PROBE_OFFSET_FROM_EXTRUDER -0.84   // Z offset: -below +above  [the nozzle]
  
  // X and Y axis travel speed (mm/m) between probes
- #define XY_PROBE_SPEED 8000
+ #define XY_PROBE_SPEED 10000
  
  // Speed for the first approach when double-probing (with PROBE_DOUBLE_TOUCH)
  #define Z_PROBE_SPEED_FAST HOMING_FEEDRATE_Z
@@ -795,7 +795,7 @@
   * For other boards you may need to define FIL_RUNOUT_PIN.
   * By default the firmware assumes HIGH = has filament, LOW = ran out
   */
- //#define FILAMENT_RUNOUT_SENSOR
+ #define FILAMENT_RUNOUT_SENSOR
  #if ENABLED(FILAMENT_RUNOUT_SENSOR)
    #define FIL_RUNOUT_INVERTING false // set to true to invert the logic of the sensor.
    #define ENDSTOPPULLUP_FIL_RUNOUT // Uncomment to use internal pullup for filament runout pins if the sensor is defined.
@@ -847,8 +847,8 @@
   */
  //#define AUTO_BED_LEVELING_3POINT
  //#define AUTO_BED_LEVELING_LINEAR
- #define AUTO_BED_LEVELING_BILINEAR
- //#define AUTO_BED_LEVELING_UBL
+ //#define AUTO_BED_LEVELING_BILINEAR
+ #define AUTO_BED_LEVELING_UBL
  //#define MESH_BED_LEVELING
  
  /**
@@ -868,7 +868,7 @@
  #if ENABLED(AUTO_BED_LEVELING_LINEAR) || ENABLED(AUTO_BED_LEVELING_BILINEAR)
  
    // Set the number of grid points per dimension.
-   #define GRID_MAX_POINTS_X 5
+   #define GRID_MAX_POINTS_X 4
    #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
  
    // Set the boundaries for probing (where the probe can reach).
@@ -923,11 +923,11 @@
    #define GRID_MAX_POINTS_Y GRID_MAX_POINTS_X
  
    #define UBL_PROBE_PT_1_X 39       // Probing points for 3-Point leveling of the mesh
-   #define UBL_PROBE_PT_1_Y 180
+   #define UBL_PROBE_PT_1_Y 190
    #define UBL_PROBE_PT_2_X 39
-   #define UBL_PROBE_PT_2_Y 20
+   #define UBL_PROBE_PT_2_Y 50
    #define UBL_PROBE_PT_3_X 180
-   #define UBL_PROBE_PT_3_Y 20
+   #define UBL_PROBE_PT_3_Y 50
  
    //#define UBL_G26_MESH_VALIDATION // Enable G26 mesh validation
    #define UBL_MESH_EDIT_MOVES_Z     // Sophisticated users prefer no movement of nozzle
