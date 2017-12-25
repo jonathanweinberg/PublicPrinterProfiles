@@ -1248,7 +1248,7 @@
  *   M76 - Pause the print job timer
  *   M77 - Stop the print job timer
  */
-#define PRINTJOB_TIMER_AUTOSTART
+//#define PRINTJOB_TIMER_AUTOSTART
 
 /**
  * Print Counter
@@ -1262,7 +1262,7 @@
  *
  * View the current statistics with M78.
  */
-#define PRINTCOUNTER
+//#define PRINTCOUNTER
 
 //=============================================================================
 //============================= LCD and SD support ============================
@@ -1398,7 +1398,7 @@
 // If you have a speaker that can produce tones, enable it here.
 // By default Marlin assumes you have a buzzer with a fixed frequency.
 //
-#define SPEAKER
+//#define SPEAKER
 
 //
 // The duration and frequency for the UI feedback sound.
