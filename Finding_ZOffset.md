@@ -1,4 +1,4 @@
-#Z-Offset Instructions:
+# Z-Offset Instructions:
 
 1. Home 3D printer
 2. M851 Z0 - Reset Z0Offset
