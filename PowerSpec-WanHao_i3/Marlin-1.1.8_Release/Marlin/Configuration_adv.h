@@ -64,8 +64,8 @@
  * THERMAL_PROTECTION_HYSTERESIS and/or THERMAL_PROTECTION_PERIOD
  */
 #if ENABLED(THERMAL_PROTECTION_HOTENDS)
-  #define THERMAL_PROTECTION_PERIOD 40        // Seconds
-  #define THERMAL_PROTECTION_HYSTERESIS 4     // Degrees Celsius
+  #define THERMAL_PROTECTION_PERIOD 60        // Seconds
+  #define THERMAL_PROTECTION_HYSTERESIS 6     // Degrees Celsius
 
   /**
    * Whenever an M104, M109, or M303 increases the target temperature, the
@@ -294,7 +294,7 @@
   #endif
 #endif
 
-//#define Z_DUAL_STEPPER_DRIVERS
+#define Z_DUAL_STEPPER_DRIVERS
 #if ENABLED(Z_DUAL_STEPPER_DRIVERS)
   //#define Z_DUAL_ENDSTOPS
   #if ENABLED(Z_DUAL_ENDSTOPS)
@@ -395,7 +395,7 @@
 // @section extras
 
 // minimum time in microseconds that a movement needs to take if the buffer is emptied.
-#define DEFAULT_MINSEGMENTTIME        20000
+#define DEFAULT_MINSEGMENTTIME        30000
 
 // If defined the movements slow down when the look ahead buffer is only half full
 #define SLOWDOWN
@@ -655,9 +655,9 @@
  *
  * Warning: Does not respect endstops!
  */
-//#define BABYSTEPPING
+#define BABYSTEPPING
 #if ENABLED(BABYSTEPPING)
-  //#define BABYSTEP_XY              // Also enable X/Y Babystepping. Not supported on DELTA!
+  #define BABYSTEP_XY              // Also enable X/Y Babystepping. Not supported on DELTA!
   #define BABYSTEP_INVERT_Z false    // Change if Z babysteps should go the other way
   #define BABYSTEP_MULTIPLICATOR 1   // Babysteps are very small. Increase for faster motion.
   //#define BABYSTEP_ZPROBE_OFFSET   // Enable to combine M851 and Babystepping
@@ -787,7 +787,7 @@
 // For debug-echo: 128 bytes for the optimal speed.
 // Other output doesn't need to be that speedy.
 // :[0, 2, 4, 8, 16, 32, 64, 128, 256]
-#define TX_BUFFER_SIZE 0
+#define TX_BUFFER_SIZE 8
 
 // Host Receive Buffer Size
 // Without XON/XOFF flow control (see SERIAL_XON_XOFF below) 32 bytes should be enough.
@@ -876,7 +876,7 @@
  * Requires NOZZLE_PARK_FEATURE.
  * This feature is required for the default FILAMENT_RUNOUT_SCRIPT.
  */
-//#define ADVANCED_PAUSE_FEATURE
+#define ADVANCED_PAUSE_FEATURE
 #if ENABLED(ADVANCED_PAUSE_FEATURE)
   #define PAUSE_PARK_RETRACT_FEEDRATE 60      // Initial retract feedrate in mm/s
   #define PAUSE_PARK_RETRACT_LENGTH 2         // Initial retract in mm
